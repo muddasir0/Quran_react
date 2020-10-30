@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Time-Countdown</title>
+        <link ref="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+        <style>
+            *{
+    box-sizing: border-box;
+}
+body{
+    background-image: url("./1.jpg");
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    font-family: "Poppins",sans-serif;
+    margin: 0;
+}
+
+h1{
+    font-weight: normal;
+    font-size: 4rem;
+    margin-top: 5rem;
+}
+
+.countdown-container{
+    display: flex;
+    justify-content: center;
+}
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+.countdown-el {
+    text-align: center;
+
+}
+.countdown-el span{
+    font-size: 1.3rem;
+}
+        </style>
+    </head>
+    <body>
+        <h1> New Years Count-Down</h1>
+        <div class="countdown-container">
+            <div class="countdown-el days-c">
+                <p class="big-text" id="days">00</p>
+                <span>days</span>
+    
+            </div>
+            <div class="countdown-el hours-c">
+                <p class="big-text" id="hours">00</p>
+                <span>hours</span>
+                
+            </div>
+            <div class="countdown-el mins-c">
+                <p class="big-text" id="mins">00</p>
+                <span>mins</span>
+                
+            </div>
+            <div class="countdown-el seconds-c">
+                <p class="big-text" id="seconds">00</p>
+                <span>seconds</span>
+                
+            </div>
+        </div>
+       
+    </body>
+</html>
